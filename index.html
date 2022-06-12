@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Predictor</title>
+</head>
+<body>
+    <h1> Student Placement Predictor</h1>
+ <form method="POST", action="/predict">
+
+<label> CGPA </label>
+<input type="text" name="cgpa">
+
+<label> IQ </label>
+<input type="text" name="iq">
+
+<label> Profile Score </label>
+<input type="text" name="profile_score">
+
+<input type="submit" value="Predict">
+
+{{ result }}
+
+
+
+ </form> 
+    
+
+
+</body>
+</html>
